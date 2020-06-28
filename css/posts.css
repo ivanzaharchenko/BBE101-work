@@ -47,3 +47,10 @@ section {
   line-height: 32px;
   color: rgba(0, 0, 0, 0.4);
 }
+
+@media (min-device-width: 320px) and (max-device-width: 767px) and (orientation: portrait) {
+  .postTeaser figure {
+    width: calc(100vw - 20px);
+    height: calc(100vw - 20px);
+  }
+}

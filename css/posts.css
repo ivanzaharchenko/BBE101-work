@@ -49,6 +49,9 @@ section {
 }
 
 @media (min-device-width: 320px) and (max-device-width: 767px) and (orientation: portrait) {
+  .postTeaser {
+    width: calc(100vw - 20px);
+  }
   .postTeaser figure {
     width: calc(100vw - 20px);
     height: calc(100vw - 20px);
